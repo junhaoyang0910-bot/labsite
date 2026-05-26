@@ -18,7 +18,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, LEO, POD]
 featured: false
-url_pdf: "/publication/文献/2023 - Absolute and relative POD of LEO satellites in formation flying_ Undifferenced and uncombined approach.pdf"
+url_pdf: "publication/文献/2023 - Absolute and relative POD of LEO satellites in formation flying_ Undifferenced and uncombined approach.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

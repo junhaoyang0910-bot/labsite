@@ -15,7 +15,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, RTK, "Inter-system biases"]
 featured: false
-url_pdf: "/publication/文献/2020 - Characteristics of GPS, BDS2, BDS3 and Galileo inter-system biases and their influence on RTK positioning.pdf"
+url_pdf: "publication/文献/2020 - Characteristics of GPS, BDS2, BDS3 and Galileo inter-system biases and their influence on RTK positioning.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

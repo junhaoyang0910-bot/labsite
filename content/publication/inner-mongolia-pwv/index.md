@@ -19,7 +19,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, PWV, Meteorology]
 featured: false
-url_pdf: "/publication/文献/2025 - Evaluation and analysis of the precipitable water vapor in Inner Mongolia of China.pdf"
+url_pdf: "publication/文献/2025 - Evaluation and analysis of the precipitable water vapor in Inner Mongolia of China.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

@@ -16,7 +16,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, PPP-RTK, "Integrity monitoring"]
 featured: false
-url_pdf: "/publication/文献/2025 - A combination of classification robust adaptive Kalman filter with PPP-RTK to improve fault detection for integrity monitoring of autonomous vehicles.pdf"
+url_pdf: "publication/文献/2025 - A combination of classification robust adaptive Kalman filter with PPP-RTK to improve fault detection for integrity monitoring of autonomous vehicles.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

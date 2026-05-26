@@ -14,7 +14,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, RTK, "Inter-system biases"]
 featured: false
-url_pdf: "/publication/文献/2019 - Multi-GNSS inter-system biases_ estimability analysis and impact on RTK positioning.pdf"
+url_pdf: "publication/文献/2019 - Multi-GNSS inter-system biases_ estimability analysis and impact on RTK positioning.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

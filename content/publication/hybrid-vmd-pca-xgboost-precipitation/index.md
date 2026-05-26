@@ -19,7 +19,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, Precipitation, AI]
 featured: false
-url_pdf: "/publication/文献/2025 - A novel optimized hybrid VMD-PCA-XGBoost model for forecasting precipitation_ Exemplified by the Beijing-Tianjin-Hebei study region in China.pdf"
+url_pdf: "publication/文献/2025 - A novel optimized hybrid VMD-PCA-XGBoost model for forecasting precipitation_ Exemplified by the Beijing-Tianjin-Hebei study region in China.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

@@ -16,7 +16,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, NRTK, Marine]
 featured: false
-url_pdf: "/publication/文献/2025 - A novel network RTK technique for mobile platforms_ Extending high-precision positioning to offshore environments.pdf"
+url_pdf: "publication/文献/2025 - A novel network RTK technique for mobile platforms_ Extending high-precision positioning to offshore environments.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

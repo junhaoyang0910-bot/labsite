@@ -17,7 +17,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, PPP-RTK, "Time transfer"]
 featured: false
-url_pdf: "/publication/文献/2023 - A method of real-time long-baseline time transfer based on the PPP-RTK.pdf"
+url_pdf: "publication/文献/2023 - A method of real-time long-baseline time transfer based on the PPP-RTK.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

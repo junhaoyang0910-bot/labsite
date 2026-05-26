@@ -15,7 +15,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, RTK, "Inter-system biases"]
 featured: false
-url_pdf: "/publication/文献/2020 - On the temperature sensitivity of multi-GNSS intra-and inter-system biases and the impact on RTK positioning.pdf"
+url_pdf: "publication/文献/2020 - On the temperature sensitivity of multi-GNSS intra-and inter-system biases and the impact on RTK positioning.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

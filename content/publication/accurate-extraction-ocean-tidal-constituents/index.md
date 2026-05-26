@@ -17,7 +17,7 @@ abstract: >-
 summary: ""
 tags: [Altimetry, Tides, Coastal]
 featured: false
-url_pdf: "/publication/文献/2025 - Accurate Extraction of Ocean Tidal Constituents from Coastal Satellite Altimeter Records.pdf"
+url_pdf: "publication/文献/2025 - Accurate Extraction of Ocean Tidal Constituents from Coastal Satellite Altimeter Records.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

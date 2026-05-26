@@ -14,7 +14,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, RTK, BDS-3]
 featured: false
-url_pdf: "/publication/文献/2020 - Initial assessment of single-and dual-frequency BDS-3 RTK positioning.pdf"
+url_pdf: "publication/文献/2020 - Initial assessment of single-and dual-frequency BDS-3 RTK positioning.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

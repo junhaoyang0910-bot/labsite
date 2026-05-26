@@ -21,7 +21,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, AI, "Tropospheric delay"]
 featured: false
-url_pdf: "/publication/文献/2025 - Spatiotemporal inhomogeneity of accuracy degradation in AI weather forecast foundation models_ A GNSS perspective.pdf"
+url_pdf: "publication/文献/2025 - Spatiotemporal inhomogeneity of accuracy degradation in AI weather forecast foundation models_ A GNSS perspective.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

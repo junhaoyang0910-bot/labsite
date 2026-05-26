@@ -19,7 +19,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, PDR, Bluetooth]
 featured: false
-url_pdf: "/publication/文献/2024 - Tightly coupled bluetooth enhanced GNSS_PDR system for pedestrian navigation in dense urban environments.pdf"
+url_pdf: "publication/文献/2024 - Tightly coupled bluetooth enhanced GNSS_PDR system for pedestrian navigation in dense urban environments.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

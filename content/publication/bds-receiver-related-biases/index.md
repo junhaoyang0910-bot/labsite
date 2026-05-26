@@ -15,7 +15,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, BDS-3, "Inter-system biases"]
 featured: false
-url_pdf: "/publication/文献/2021 - Characteristics of receiver-related biases between BDS-3 and BDS-2 for five frequencies including inter-system biases, differential code biases, and differential phase bi.pdf"
+url_pdf: "publication/文献/2021 - Characteristics of receiver-related biases between BDS-3 and BDS-2 for five frequencies including inter-system biases, differential code biases, and differential phase bi.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

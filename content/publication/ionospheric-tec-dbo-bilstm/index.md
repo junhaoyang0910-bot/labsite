@@ -18,7 +18,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, TEC, AI]
 featured: false
-url_pdf: "/publication/文献/2025 - A new high-precision short-term ionospheric TEC prediction model based on the DBO-BiLSTM algorithm_ A case study of Europe.pdf"
+url_pdf: "publication/文献/2025 - A new high-precision short-term ionospheric TEC prediction model based on the DBO-BiLSTM algorithm_ A case study of Europe.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

@@ -22,7 +22,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, "Tropospheric delay", AI]
 featured: false
-url_pdf: "/publication/文献/2024 - Forecasting of tropospheric delay using AI foundation models in support of microwave remote sensing.pdf"
+url_pdf: "publication/文献/2024 - Forecasting of tropospheric delay using AI foundation models in support of microwave remote sensing.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

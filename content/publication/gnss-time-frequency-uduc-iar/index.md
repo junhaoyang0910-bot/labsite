@@ -16,7 +16,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, "Time transfer", IAR]
 featured: false
-url_pdf: "/publication/文献/2023 - Undifferenced and uncombined GNSS time and frequency transfer with integer ambiguity resolution.pdf"
+url_pdf: "publication/文献/2023 - Undifferenced and uncombined GNSS time and frequency transfer with integer ambiguity resolution.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

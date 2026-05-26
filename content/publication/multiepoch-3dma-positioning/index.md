@@ -16,7 +16,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, 3DMA, Urban]
 featured: false
-url_pdf: "/publication/文献/2025 - Multiepoch Grid-Based 3DMA Positioning in Dense Urban Canyons by Optimizing Reflection Modelling.pdf"
+url_pdf: "publication/文献/2025 - Multiepoch Grid-Based 3DMA Positioning in Dense Urban Canyons by Optimizing Reflection Modelling.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

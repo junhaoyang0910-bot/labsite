@@ -12,7 +12,7 @@ sections:
       text: |
         <div class="pi-profile">
           <div class="pi-card">
-            <img class="pi-photo" src="/media/xiaolong-mi.jpg" alt="Prof. Xiaolong Mi">
+            <img class="pi-photo" src="../media/xiaolong-mi.jpg" alt="Prof. Xiaolong Mi">
             <h3>Xiaolong Mi</h3>
             <p class="pi-role">Assistant Professor</p>
             <p class="pi-affiliation"><strong>Department of Land Surveying and Geo-Informatics</strong><br>The Hong Kong Polytechnic University<br>Hong Kong SAR, China</p>

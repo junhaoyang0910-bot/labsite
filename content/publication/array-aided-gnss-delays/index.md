@@ -17,7 +17,7 @@ abstract: >-
 summary: ""
 tags: [GNSS, Ionosphere, Troposphere]
 featured: false
-url_pdf: "/publication/文献/2025 - Array-Aided GNSS for Precise Determination of Ionospheric and Tropospheric Delays with Integer Ambiguity Resolution.pdf"
+url_pdf: "publication/文献/2025 - Array-Aided GNSS for Precise Determination of Ionospheric and Tropospheric Delays with Integer Ambiguity Resolution.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""
