@@ -1,7 +1,21 @@
 # IDEs
 .idea/
+.vs/
 
 # Hugo
 /resources/
 public/
 assets/jsconfig.json
+.hugo_build.lock
+
+# Local browser/server working files
+.chrome-tmp/
+.edge-tmp/
+hugo-server*.log
+
+# Extracted archive metadata
+__MACOSX/
+.DS_Store
+
+# Local source materials and checkpoints
+materials/

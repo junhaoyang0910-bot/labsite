@@ -1,0 +1,39 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper publication-archive">
+  <div class="row">
+    <div class="col-lg-12">
+
+      {{ with .Content }}
+      <div class="article-style">{{ . }}</div>
+      {{ end }}
+
+      {{ $publications := where .Pages "Params.doi" "ne" nil }}
+      {{ $publications = where $publications "Params.doi" "ne" "" }}
+      {{ $years := slice }}
+      {{ range $publications }}
+        {{ $years = $years | append (.Date.Format "2006") }}
+      {{ end }}
+
+      {{ range $year := sort (uniq $years) "" "desc" }}
+      <section class="publication-year-group">
+        <h2 class="publication-year">{{ $year }}</h2>
+        <ol class="publication-year-list">
+          {{ range $index, $item := $publications.ByDate.Reverse }}
+            {{ if eq ($item.Date.Format "2006") $year }}
+            <li class="publication-numbered-item">
+              {{ partial "functions/render_view" (dict "page" $ "item" $item "view" ($.Params.view | default "compact") "index" $index) }}
+            </li>
+            {{ end }}
+          {{ end }}
+        </ol>
+      </section>
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+
+{{- end -}}

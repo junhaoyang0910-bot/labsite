@@ -5,17 +5,29 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+  - block: markdown
     content:
-      title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
+      title: ''
+      subtitle: ''
       text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        <div class="lab-home-cover">
+          <canvas class="lab-home-network" aria-hidden="true"></canvas>
+          <div class="lab-home-content">
+            <p class="lab-home-kicker">Welcome to</p>
+            <h1>Xiaolong Mi Research Group</h1>
+            <p class="lab-home-affiliation">The Hong Kong Polytechnic University</p>
+            <p class="lab-home-focus">GNSS &nbsp;|&nbsp; Space Geodesy &nbsp;|&nbsp; LEO-PNT &nbsp;|&nbsp; Planetary Navigation</p>
+            <a class="lab-home-scroll" href="#section-collection" aria-label="Explore the site">
+              Explore Our Work
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+    design:
+      columns: '1'
+      css_class: lab-home-hero
+      spacing:
+        padding: ['0', '0', '0', '0']
   
   - block: collection
     content:
@@ -36,35 +48,15 @@ sections:
       view: card
       columns: '1'
   
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
   - block: collection
     content:
-      title: Latest Preprints
+      title: Latest Publications
       text: ""
       count: 5
       filters:
         folders:
           - publication
-        publication_type: 'article'
+        publication_type: 'article-journal'
     design:
       view: citation
       columns: '1'

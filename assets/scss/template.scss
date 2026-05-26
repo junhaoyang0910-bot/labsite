@@ -7,3 +7,305 @@
 .cta-group {
   justify-content: center;
 }
+
+// Immersive home cover using the site's existing blue palette.
+body:has(.lab-home-cover) .page-header {
+  position: fixed;
+  width: 100%;
+}
+
+body:has(.lab-home-cover) #navbar-main {
+  background: rgba(3, 18, 43, 0.58);
+  box-shadow: none;
+  backdrop-filter: blur(10px);
+}
+
+body:has(.lab-home-cover) #navbar-main .navbar-brand,
+body:has(.lab-home-cover) #navbar-main .main-menu-item ul li .nav-link,
+body:has(.lab-home-cover) #navbar-main .nav-icons .nav-link {
+  color: #f8fbff;
+  text-shadow: 0 1px 10px rgba(36, 151, 245, 0.18);
+}
+
+body:has(.lab-home-cover) #navbar-main .main-menu-item ul li .nav-link:hover,
+body:has(.lab-home-cover) #navbar-main .main-menu-item ul li .nav-link:focus,
+body:has(.lab-home-cover) #navbar-main .nav-icons .nav-link:hover,
+body:has(.lab-home-cover) #navbar-main .nav-icons .nav-link:focus,
+body:has(.lab-home-cover) #navbar-main .navbar-brand:hover {
+  color: #8ad1ff;
+}
+
+.lab-home-hero {
+  min-height: 100vh;
+  padding: 0 !important;
+}
+
+.lab-home-hero .container,
+.lab-home-hero .row,
+.lab-home-hero .col-12 {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lab-home-cover {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(180deg, rgba(2, 12, 30, 0.68), rgba(2, 14, 37, 0.42) 45%, rgba(2, 12, 31, 0.7)),
+    url('/media/lab-home-background.png') center center / cover no-repeat;
+  color: #f4f8ff;
+  text-align: center;
+}
+
+.lab-home-cover::after {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 14%, rgba(1, 9, 26, 0.3) 88%);
+  content: '';
+  pointer-events: none;
+}
+
+.lab-home-network {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.lab-home-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1040px;
+  padding: 7rem 1.5rem 3rem;
+}
+
+.lab-home-kicker {
+  margin-bottom: 1.35rem;
+  font-size: clamp(1.15rem, 1.7vw, 1.45rem);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lab-home-content h1 {
+  margin-bottom: 1.2rem;
+  color: #fff;
+  font-size: clamp(2.9rem, 6.5vw, 5.2rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+  text-shadow: 0 3px 24px rgba(0, 15, 35, 0.55);
+}
+
+.lab-home-affiliation {
+  margin-bottom: 1rem;
+  color: #ecf5ff;
+  font-size: clamp(1.05rem, 1.7vw, 1.35rem);
+  font-weight: 600;
+}
+
+.lab-home-focus {
+  margin: 0 auto 3.5rem;
+  color: #bedcf4;
+  font-size: clamp(0.9rem, 1.2vw, 1.02rem);
+  letter-spacing: 0.06em;
+}
+
+.lab-home-scroll {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  align-items: center;
+  color: #edf6ff;
+  font-size: 1.08rem;
+  text-decoration: none;
+}
+
+.lab-home-scroll .fas {
+  display: flex;
+  width: 2.15rem;
+  height: 2.15rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(222, 239, 255, 0.85);
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
+
+.lab-home-scroll:hover {
+  color: #71c5ff;
+  text-decoration: none;
+}
+
+.pi-profile {
+  display: grid;
+  grid-template-columns: 400px minmax(340px, 520px);
+  column-gap: 3.25rem;
+  align-items: start;
+  justify-content: center;
+  max-width: 1030px;
+  margin: 0 auto 4rem;
+}
+
+.pi-card {
+  padding-right: 3.25rem;
+  border-right: 1px solid #dfe4ea;
+}
+
+.pi-photo {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto 1.45rem 0;
+}
+
+.pi-card h3 {
+  margin: 0 0 0.35rem;
+  color: #133d70;
+  font-size: 1.38rem;
+  font-weight: 700;
+}
+
+.pi-role {
+  margin-bottom: 0.35rem;
+  color: #1565c0;
+  font-weight: 700;
+}
+
+.pi-affiliation {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.pi-about h2 {
+  margin: 0 0 1.55rem;
+  color: #133d70;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.pi-biography {
+  text-align: justify;
+}
+
+.pi-academic-links {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2.1rem;
+}
+
+.pi-academic-links a {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  color: #343a40;
+  text-decoration: none;
+}
+
+.pi-academic-links .ai {
+  font-size: 2.75rem;
+  line-height: 1;
+}
+
+.pi-academic-links .ai-google-scholar {
+  color: #4285f4;
+}
+
+.pi-academic-links .ai-orcid {
+  color: #a6ce39;
+}
+
+.pi-academic-links span {
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  body:has(.lab-home-cover) #navbar-main .navbar-collapse {
+    background: rgba(3, 18, 43, 0.97);
+  }
+
+  .lab-home-content {
+    padding-top: 6rem;
+  }
+
+  .lab-home-focus {
+    line-height: 1.8;
+  }
+
+  .lab-home-network {
+    opacity: 0.52;
+  }
+
+  .pi-profile {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .pi-card {
+    padding-right: 0;
+    padding-bottom: 1.75rem;
+    border-right: 0;
+    border-bottom: 1px solid #dfe4ea;
+  }
+
+  .pi-about h2 {
+    margin-top: 0.5rem;
+    font-size: 1.7rem;
+  }
+}
+
+.publication-year-group {
+  margin-bottom: 2.75rem;
+}
+
+.publication-year {
+  margin: 1.5rem 0 1.1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 1.65rem;
+}
+
+.publication-year-list {
+  margin: 0;
+  padding-left: 2.2rem;
+}
+
+.publication-numbered-item {
+  padding-left: 0.35rem;
+  margin-bottom: 1.05rem;
+}
+
+.publication-numbered-item .pub-list-item {
+  margin-bottom: 0 !important;
+}
+
+.publication-numbered-item .pub-icon {
+  display: none;
+}
+
+// Give publication detail pages more room without changing archive listings.
+.pub .article-container {
+  max-width: 980px;
+}
+
+.pub .article-metadata > div:first-child {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.pub .pub-abstract {
+  text-align: justify;
+}
