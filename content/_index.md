@@ -16,7 +16,6 @@ sections:
             <p class="lab-home-kicker">Welcome to</p>
             <h1>Xiaolong Mi Research Group</h1>
             <p class="lab-home-affiliation">The Hong Kong Polytechnic University</p>
-            <p class="lab-home-focus">GNSS &nbsp;|&nbsp; Space Geodesy &nbsp;|&nbsp; LEO-PNT &nbsp;|&nbsp; Planetary Navigation</p>
             <a class="lab-home-scroll" href="#section-collection" aria-label="Explore the site">
               Explore Our Work
               <i class="fas fa-chevron-down" aria-hidden="true"></i>

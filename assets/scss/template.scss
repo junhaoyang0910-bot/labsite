@@ -112,13 +112,6 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand:hover {
   font-weight: 600;
 }
 
-.lab-home-focus {
-  margin: 0 auto 3.5rem;
-  color: #bedcf4;
-  font-size: clamp(0.9rem, 1.2vw, 1.02rem);
-  letter-spacing: 0.06em;
-}
-
 .lab-home-scroll {
   display: inline-flex;
   flex-direction: column;
@@ -238,10 +231,6 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand:hover {
 
   .lab-home-content {
     padding-top: 6rem;
-  }
-
-  .lab-home-focus {
-    line-height: 1.8;
   }
 
   .lab-home-network {
