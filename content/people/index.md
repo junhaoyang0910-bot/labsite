@@ -34,24 +34,28 @@ sections:
           </div>
         </div>
         <section class="advisor-section" aria-labelledby="advisor-heading">
-          <h2 id="advisor-heading">Academic Advisor</h2>
+          <h2 id="advisor-heading">Academic Advisors</h2>
           <div class="advisor-grid">
-            <a class="advisor-card" href="https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-chen-wu/cv/" target="_blank" rel="noopener">
+            <div class="advisor-card">
               <img class="advisor-photo" src="../media/wu-chen.jpg" alt="Prof. Wu Chen">
               <div>
                 <h3>Prof. Wu Chen</h3>
-                <p>The Hong Kong Polytechnic University</p>
-                <span>View PolyU Profile</span>
+                <p class="advisor-affiliation">The Hong Kong Polytechnic University</p>
+                <p class="advisor-description">Head (LSGI), DoHFRI, ADoRIAIoT &amp; Chair Professor of Satellite Navigation</p>
+                <p class="advisor-email"><a href="mailto:mailwu.chen@polyu.edu.hk">mailwu.chen@polyu.edu.hk</a></p>
+                <a class="advisor-profile-link" href="https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-chen-wu/cv/" target="_blank" rel="noopener">View PolyU Profile</a>
               </div>
-            </a>
-            <a class="advisor-card" href="https://www.polyu.edu.hk/lsgi/people/distinguished-chair-professors-emeritus/prof-teunissen-petrus/" target="_blank" rel="noopener">
+            </div>
+            <div class="advisor-card">
               <img class="advisor-photo" src="../media/peter-teunissen.jpg" alt="Prof. Peter Teunissen">
               <div>
                 <h3>Prof. Peter Teunissen</h3>
-                <p>The Hong Kong Polytechnic University</p>
-                <span>View PolyU Profile</span>
+                <p class="advisor-affiliation">Delft University of Technology</p>
+                <p class="advisor-description">Distinguished Visiting Chair Professor</p>
+                <p class="advisor-email"><a href="mailto:P.J.G.Teunissen@tudelft.nl">P.J.G.Teunissen@tudelft.nl</a></p>
+                <a class="advisor-profile-link" href="https://www.polyu.edu.hk/lsgi/people/distinguished-chair-professors-emeritus/prof-teunissen-petrus/" target="_blank" rel="noopener">View PolyU Profile</a>
               </div>
-            </a>
+            </div>
           </div>
         </section>
     design:

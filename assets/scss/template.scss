@@ -117,7 +117,7 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
   max-width: 1180px;
   margin: 0 auto 1.2rem;
   color: #fff;
-  font-size: clamp(1.85rem, 3.55vw, 3.25rem);
+  font-size: clamp(1.8rem, 3.35vw, 3.05rem);
   font-weight: 700;
   letter-spacing: -0.035em;
   line-height: 1.14;
@@ -125,10 +125,18 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 }
 
 .lab-home-affiliation {
-  margin-bottom: 1rem;
+  margin-bottom: 0.35rem;
   color: #ecf5ff;
   font-size: clamp(1.05rem, 1.7vw, 1.35rem);
   font-weight: 600;
+}
+
+.lab-home-department {
+  margin-bottom: 1.45rem;
+  color: #cde5f8;
+  font-size: clamp(0.95rem, 1.35vw, 1.12rem);
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .lab-home-scroll {
@@ -264,8 +272,8 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 
 .advisor-card {
   display: grid;
-  grid-template-columns: 96px 1fr;
-  gap: 1rem;
+  grid-template-columns: 124px 1fr;
+  gap: 1.15rem;
   align-items: center;
   padding: 1.35rem 1.45rem;
   border: 1px solid #dfe7f0;
@@ -278,8 +286,8 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 }
 
 .advisor-photo {
-  width: 96px;
-  height: 112px;
+  width: 124px;
+  height: 146px;
   border-radius: 12px;
   object-fit: cover;
   object-position: center top;
@@ -301,14 +309,36 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
   font-weight: 700;
 }
 
-.advisor-card p {
-  margin: 0 0 0.8rem;
+.advisor-affiliation {
+  margin: 0 0 0.42rem;
   color: #495057;
+  line-height: 1.35;
 }
 
-.advisor-card span {
+.advisor-description {
+  margin: 0 0 0.55rem;
+  color: #343a40;
+  font-size: 0.95rem;
+  line-height: 1.42;
+}
+
+.advisor-email {
+  margin: 0 0 0.75rem;
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.advisor-email a,
+.advisor-profile-link {
   color: #1565c0;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.advisor-email a:hover,
+.advisor-profile-link:hover {
+  color: #0d4f99;
+  text-decoration: underline;
 }
 
 @media (max-width: 767px) {
@@ -353,12 +383,12 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
   }
 
   .advisor-card {
-    grid-template-columns: 82px 1fr;
+    grid-template-columns: 96px 1fr;
   }
 
   .advisor-photo {
-    width: 82px;
-    height: 98px;
+    width: 96px;
+    height: 114px;
   }
 }
 
