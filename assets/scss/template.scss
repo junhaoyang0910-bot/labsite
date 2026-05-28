@@ -35,8 +35,13 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand:hover {
   color: #8ad1ff;
 }
 
+body:has(.lab-home-cover) #navbar-main .navbar-brand,
+body:has(.lab-home-cover) #navbar-main .navbar-brand-mobile-wrapper {
+  display: none !important;
+}
+
 #navbar-main .navbar-brand img {
-  max-width: 270px;
+  max-width: 255px;
   max-height: 44px;
   padding: 3px 8px;
   border-radius: 8px;
@@ -109,13 +114,13 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 }
 
 .lab-home-content h1 {
-  max-width: 1120px;
-  margin-bottom: 1.2rem;
+  max-width: 1180px;
+  margin: 0 auto 1.2rem;
   color: #fff;
-  font-size: clamp(2.25rem, 4.8vw, 4.35rem);
+  font-size: clamp(1.85rem, 3.55vw, 3.25rem);
   font-weight: 700;
   letter-spacing: -0.035em;
-  line-height: 1.12;
+  line-height: 1.14;
   text-shadow: 0 3px 24px rgba(0, 15, 35, 0.55);
 }
 
@@ -258,7 +263,10 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 }
 
 .advisor-card {
-  display: block;
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 1rem;
+  align-items: center;
   padding: 1.35rem 1.45rem;
   border: 1px solid #dfe7f0;
   border-radius: 16px;
@@ -267,6 +275,15 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
   color: #222;
   text-decoration: none;
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.advisor-photo {
+  width: 96px;
+  height: 112px;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: center top;
+  box-shadow: 0 8px 20px rgba(12, 44, 84, 0.13);
 }
 
 .advisor-card:hover {
@@ -333,6 +350,15 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 
   .advisor-grid {
     grid-template-columns: 1fr;
+  }
+
+  .advisor-card {
+    grid-template-columns: 82px 1fr;
+  }
+
+  .advisor-photo {
+    width: 82px;
+    height: 98px;
   }
 }
 

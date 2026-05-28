@@ -14,7 +14,7 @@ sections:
           <canvas class="lab-home-network" aria-hidden="true"></canvas>
           <div class="lab-home-content">
             <p class="lab-home-kicker">Welcome to</p>
-            <h1>Intelligent Computational Geodesy and PNT (ICG-PNT) Lab</h1>
+            <h1>Intelligent Computational Geodesy and PNT<br>(ICG-PNT) Lab</h1>
             <p class="lab-home-affiliation">The Hong Kong Polytechnic University</p>
             <a class="lab-home-scroll" href="#section-collection" aria-label="Explore the site">
               Explore Our Work

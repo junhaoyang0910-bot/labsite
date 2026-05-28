@@ -37,14 +37,20 @@ sections:
           <h2 id="advisor-heading">Academic Advisor</h2>
           <div class="advisor-grid">
             <a class="advisor-card" href="https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-chen-wu/cv/" target="_blank" rel="noopener">
-              <h3>Prof. Wu Chen</h3>
-              <p>The Hong Kong Polytechnic University</p>
-              <span>View PolyU Profile</span>
+              <img class="advisor-photo" src="../media/wu-chen.jpg" alt="Prof. Wu Chen">
+              <div>
+                <h3>Prof. Wu Chen</h3>
+                <p>The Hong Kong Polytechnic University</p>
+                <span>View PolyU Profile</span>
+              </div>
             </a>
             <a class="advisor-card" href="https://www.polyu.edu.hk/lsgi/people/distinguished-chair-professors-emeritus/prof-teunissen-petrus/" target="_blank" rel="noopener">
-              <h3>Prof. Peter Teunissen</h3>
-              <p>The Hong Kong Polytechnic University</p>
-              <span>View PolyU Profile</span>
+              <img class="advisor-photo" src="../media/peter-teunissen.jpg" alt="Prof. Peter Teunissen">
+              <div>
+                <h3>Prof. Peter Teunissen</h3>
+                <p>The Hong Kong Polytechnic University</p>
+                <span>View PolyU Profile</span>
+              </div>
             </a>
           </div>
         </section>
@@ -57,11 +63,9 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Researchers
-          - Grad Students
-          - Administration
-          - Visitors
-          - Alumni
+          - Postdoctoral Fellows
+          - PhD Students
+          - Research Assistants
       sort_by: Params.last_name
       sort_ascending: true
     design:
