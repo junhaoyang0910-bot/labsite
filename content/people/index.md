@@ -41,7 +41,7 @@ sections:
               <div class="advisor-info">
                 <h3>Prof. Wu Chen</h3>
                 <p class="advisor-affiliation">The Hong Kong Polytechnic University</p>
-                <p class="advisor-description">Head (LSGI), DoHFRI, ADoRIAIoT &amp; Chair Professor of Satellite Navigation</p>
+                <p class="advisor-description">Head (LSGI) &amp; Chair Professor of Satellite Navigation</p>
                 <p class="advisor-email"><a href="mailto:wu.chen@polyu.edu.hk"><i class="fas fa-envelope" aria-hidden="true"></i><span>wu.chen@polyu.edu.hk</span></a></p>
                 <a class="advisor-profile-link" href="https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-chen-wu/cv/" target="_blank" rel="noopener">View PolyU Profile</a>
               </div>
