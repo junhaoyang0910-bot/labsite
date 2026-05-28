@@ -38,21 +38,21 @@ sections:
           <div class="advisor-grid">
             <div class="advisor-card">
               <img class="advisor-photo" src="../media/wu-chen.jpg" alt="Prof. Wu Chen">
-              <div>
+              <div class="advisor-info">
                 <h3>Prof. Wu Chen</h3>
                 <p class="advisor-affiliation">The Hong Kong Polytechnic University</p>
                 <p class="advisor-description">Head (LSGI), DoHFRI, ADoRIAIoT &amp; Chair Professor of Satellite Navigation</p>
-                <p class="advisor-email"><a href="mailto:mailwu.chen@polyu.edu.hk">mailwu.chen@polyu.edu.hk</a></p>
+                <p class="advisor-email"><a href="mailto:wu.chen@polyu.edu.hk"><i class="fas fa-envelope" aria-hidden="true"></i><span>wu.chen@polyu.edu.hk</span></a></p>
                 <a class="advisor-profile-link" href="https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-chen-wu/cv/" target="_blank" rel="noopener">View PolyU Profile</a>
               </div>
             </div>
             <div class="advisor-card">
               <img class="advisor-photo" src="../media/peter-teunissen.jpg" alt="Prof. Peter Teunissen">
-              <div>
+              <div class="advisor-info">
                 <h3>Prof. Peter Teunissen</h3>
                 <p class="advisor-affiliation">Delft University of Technology</p>
                 <p class="advisor-description">Distinguished Visiting Chair Professor</p>
-                <p class="advisor-email"><a href="mailto:P.J.G.Teunissen@tudelft.nl">P.J.G.Teunissen@tudelft.nl</a></p>
+                <p class="advisor-email"><a href="mailto:P.J.G.Teunissen@tudelft.nl"><i class="fas fa-envelope" aria-hidden="true"></i><span>P.J.G.Teunissen@tudelft.nl</span></a></p>
                 <a class="advisor-profile-link" href="https://www.polyu.edu.hk/lsgi/people/distinguished-chair-professors-emeritus/prof-teunissen-petrus/" target="_blank" rel="noopener">View PolyU Profile</a>
               </div>
             </div>

@@ -101,7 +101,8 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 .lab-home-content {
   position: relative;
   z-index: 2;
-  max-width: 1040px;
+  width: 96vw;
+  max-width: 1240px;
   padding: 7rem 1.5rem 3rem;
 }
 
@@ -114,14 +115,19 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 }
 
 .lab-home-content h1 {
-  max-width: 1180px;
+  max-width: 1240px;
   margin: 0 auto 1.2rem;
   color: #fff;
-  font-size: clamp(1.8rem, 3.35vw, 3.05rem);
+  font-size: clamp(2rem, 3.95vw, 3.45rem);
   font-weight: 700;
   letter-spacing: -0.035em;
   line-height: 1.14;
   text-shadow: 0 3px 24px rgba(0, 15, 35, 0.55);
+}
+
+.lab-home-title span {
+  display: block;
+  white-space: nowrap;
 }
 
 .lab-home-affiliation {
@@ -252,7 +258,7 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 }
 
 .advisor-section {
-  max-width: 1030px;
+  max-width: 1140px;
   margin: 0 auto 4.25rem;
 }
 
@@ -267,15 +273,15 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 .advisor-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.3rem;
+  gap: 1.55rem;
 }
 
 .advisor-card {
   display: grid;
-  grid-template-columns: 124px 1fr;
-  gap: 1.15rem;
-  align-items: center;
-  padding: 1.35rem 1.45rem;
+  grid-template-columns: 156px minmax(0, 1fr);
+  gap: 1.45rem;
+  align-items: start;
+  padding: 1.65rem 1.65rem;
   border: 1px solid #dfe7f0;
   border-radius: 16px;
   background: #fff;
@@ -286,12 +292,19 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 }
 
 .advisor-photo {
-  width: 124px;
-  height: 146px;
+  width: 156px;
+  height: 184px;
   border-radius: 12px;
   object-fit: cover;
   object-position: center top;
   box-shadow: 0 8px 20px rgba(12, 44, 84, 0.13);
+}
+
+.advisor-info {
+  display: grid;
+  grid-template-rows: auto 3.05rem 4.55rem auto auto;
+  align-content: start;
+  min-width: 0;
 }
 
 .advisor-card:hover {
@@ -303,28 +316,30 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 }
 
 .advisor-card h3 {
-  margin: 0 0 0.45rem;
+  margin: 0 0 0.55rem;
   color: #133d70;
-  font-size: 1.16rem;
+  font-size: 1.22rem;
   font-weight: 700;
+  line-height: 1.25;
 }
 
 .advisor-affiliation {
-  margin: 0 0 0.42rem;
+  margin: 0;
   color: #495057;
-  line-height: 1.35;
-}
-
-.advisor-description {
-  margin: 0 0 0.55rem;
-  color: #343a40;
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.42;
 }
 
+.advisor-description {
+  margin: 0;
+  color: #343a40;
+  font-size: 0.97rem;
+  line-height: 1.48;
+}
+
 .advisor-email {
-  margin: 0 0 0.75rem;
-  font-size: 0.92rem;
+  margin: 0 0 0.9rem;
+  font-size: 0.94rem;
   line-height: 1.35;
 }
 
@@ -333,6 +348,18 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
   color: #1565c0;
   font-weight: 700;
   text-decoration: none;
+}
+
+.advisor-email a {
+  display: inline-flex;
+  gap: 0.42rem;
+  align-items: center;
+}
+
+.advisor-email .fas {
+  color: #1565c0;
+  font-size: 0.82rem;
+  line-height: 1;
 }
 
 .advisor-email a:hover,
@@ -353,7 +380,16 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
   }
 
   .lab-home-content {
+    width: 94vw;
     padding-top: 6rem;
+  }
+
+  .lab-home-content h1 {
+    font-size: clamp(1.9rem, 8.2vw, 2.65rem);
+  }
+
+  .lab-home-title span {
+    white-space: normal;
   }
 
   .lab-home-network {
@@ -383,12 +419,18 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
   }
 
   .advisor-card {
-    grid-template-columns: 96px 1fr;
+    grid-template-columns: 112px 1fr;
+    padding: 1.35rem;
   }
 
   .advisor-photo {
-    width: 96px;
-    height: 114px;
+    width: 112px;
+    height: 132px;
+  }
+
+  .advisor-info {
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 0.4rem;
   }
 }
 
