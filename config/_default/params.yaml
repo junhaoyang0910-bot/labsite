@@ -17,8 +17,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: 'Xiaolong Mi Research Group'
-    description: 'Research group at The Hong Kong Polytechnic University focused on GNSS, space geodesy, LEO-PNT, and planetary navigation.'
+    org_name: 'Intelligent Computational Geodesy and PNT (ICG-PNT) Lab'
+    description: 'Research lab at The Hong Kong Polytechnic University focused on intelligent computational geodesy and positioning, navigation, and timing.'
     twitter: ''
   analytics:
     google_analytics: ''

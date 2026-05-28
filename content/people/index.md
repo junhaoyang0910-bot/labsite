@@ -33,6 +33,21 @@ sections:
             </div>
           </div>
         </div>
+        <section class="advisor-section" aria-labelledby="advisor-heading">
+          <h2 id="advisor-heading">Academic Advisor</h2>
+          <div class="advisor-grid">
+            <a class="advisor-card" href="https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-chen-wu/cv/" target="_blank" rel="noopener">
+              <h3>Prof. Wu Chen</h3>
+              <p>The Hong Kong Polytechnic University</p>
+              <span>View PolyU Profile</span>
+            </a>
+            <a class="advisor-card" href="https://www.polyu.edu.hk/lsgi/people/distinguished-chair-professors-emeritus/prof-teunissen-petrus/" target="_blank" rel="noopener">
+              <h3>Prof. Peter Teunissen</h3>
+              <p>The Hong Kong Polytechnic University</p>
+              <span>View PolyU Profile</span>
+            </a>
+          </div>
+        </section>
     design:
       columns: '1'
 

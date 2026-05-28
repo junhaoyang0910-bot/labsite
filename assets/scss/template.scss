@@ -35,6 +35,19 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand:hover {
   color: #8ad1ff;
 }
 
+#navbar-main .navbar-brand img {
+  max-width: 270px;
+  max-height: 44px;
+  padding: 3px 8px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 2px 14px rgba(5, 35, 70, 0.12);
+}
+
+body:has(.lab-home-cover) #navbar-main .navbar-brand img {
+  box-shadow: 0 3px 18px rgba(0, 12, 32, 0.24);
+}
+
 .lab-home-hero {
   min-height: 100vh;
   padding: 0 !important;
@@ -96,12 +109,13 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand:hover {
 }
 
 .lab-home-content h1 {
+  max-width: 1120px;
   margin-bottom: 1.2rem;
   color: #fff;
-  font-size: clamp(2.9rem, 6.5vw, 5.2rem);
+  font-size: clamp(2.25rem, 4.8vw, 4.35rem);
   font-weight: 700;
   letter-spacing: -0.035em;
-  line-height: 1.08;
+  line-height: 1.12;
   text-shadow: 0 3px 24px rgba(0, 15, 35, 0.55);
 }
 
@@ -224,7 +238,69 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand:hover {
   font-weight: 700;
 }
 
+.advisor-section {
+  max-width: 1030px;
+  margin: 0 auto 4.25rem;
+}
+
+.advisor-section h2 {
+  margin: 0 0 1.5rem;
+  color: #133d70;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.advisor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.3rem;
+}
+
+.advisor-card {
+  display: block;
+  padding: 1.35rem 1.45rem;
+  border: 1px solid #dfe7f0;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(12, 44, 84, 0.07);
+  color: #222;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.advisor-card:hover {
+  border-color: #7bb9e8;
+  box-shadow: 0 16px 34px rgba(12, 44, 84, 0.12);
+  color: #222;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.advisor-card h3 {
+  margin: 0 0 0.45rem;
+  color: #133d70;
+  font-size: 1.16rem;
+  font-weight: 700;
+}
+
+.advisor-card p {
+  margin: 0 0 0.8rem;
+  color: #495057;
+}
+
+.advisor-card span {
+  color: #1565c0;
+  font-weight: 700;
+}
+
 @media (max-width: 767px) {
+  #navbar-main .navbar-brand img {
+    max-width: 58vw;
+    max-height: 36px;
+    padding: 2px 6px;
+  }
+
   body:has(.lab-home-cover) #navbar-main .navbar-collapse {
     background: rgba(3, 18, 43, 0.97);
   }
@@ -253,6 +329,10 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand:hover {
   .pi-about h2 {
     margin-top: 0.5rem;
     font-size: 1.7rem;
+  }
+
+  .advisor-grid {
+    grid-template-columns: 1fr;
   }
 }
 
