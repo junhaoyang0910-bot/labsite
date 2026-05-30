@@ -20,4 +20,4 @@ user_groups:
   - PhD Students
 ---
 
-Xiang Bin is a PhD student in the Department of Land Surveying and Geo-Informatics (LSGI), The Hong Kong Polytechnic University (PolyU). She received her Bachelor's degree in Railway Traffic Signal and Control and Master's degree in Control Engineering from Beijing Jiaotong University. Her research interests include LEO satellite navigation, as well as anti-jamming and anti-spoofing technologies for UAV navigation.
+Xiang Bin is a PhD student in the Department of Land Surveying and Geo-Informatics (LSGI), The Hong Kong Polytechnic University (PolyU). She received her Bachelor&#39;s degree in Railway Traffic Signal and Control and Master&#39;s degree in Control Engineering from Beijing Jiaotong University. Her research interests include LEO satellite navigation, as well as anti-jamming and anti-spoofing technologies for UAV navigation.

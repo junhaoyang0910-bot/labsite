@@ -479,15 +479,16 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 
 // Author profile pages.
 #profile-page {
-  padding-top: 2.5rem !important;
-  padding-bottom: 1.25rem;
+  padding-top: 5rem !important;
+  padding-bottom: 0.75rem;
 }
 
 #profile-page .avatar.avatar-circle {
   width: 270px;
-  height: 270px;
+  height: auto;
+  max-width: 100%;
   border-radius: 0;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 #profile-page .article-style {
