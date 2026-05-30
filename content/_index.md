@@ -40,53 +40,11 @@ sections:
         <section id="about-us" class="home-about-section">
           <h2>About Us</h2>
           <p class="home-about-text">
-            The Intelligent Computational Geodesy and PNT (ICG-PNT) Lab develops rigorous theory and algorithms for <strong class="about-highlight">high-precision Positioning, Navigation, and Timing (PNT)</strong> across the full spatial hierarchy, spanning <strong class="about-highlight">ground and low-altitude applications</strong>, <strong class="about-highlight">LEO satellite orbit determination</strong>, and <strong class="about-highlight">lunar and deep-space navigation</strong>. Our research is grounded in <strong class="about-highlight">geodetic estimation theory</strong>, with a focus on <strong class="about-highlight">robust integer ambiguity resolution (IAR)</strong> and <strong class="about-highlight">precise atmospheric modeling</strong>, augmented by <strong class="about-highlight">artificial intelligence</strong> for smarter and more adaptive PNT systems. Our work is adopted by <strong class="about-highlight">industry, space agencies, and national infrastructure programs worldwide</strong>.
+            The Intelligent Computational Geodesy and PNT (ICG-PNT) Lab develops rigorous theory and algorithms for <strong class="about-highlight">high-precision Positioning, Navigation, and Timing (PNT)</strong> across the full spatial hierarchy, spanning ground and low-altitude applications, LEO satellite orbit determination, and lunar and deep-space navigation. Our research is grounded in <strong class="about-highlight">geodetic estimation theory</strong>, with a focus on <strong class="about-highlight">robust integer ambiguity resolution (IAR)</strong> and <strong class="about-highlight">precise atmospheric modeling</strong>, augmented by <strong class="about-highlight">artificial intelligence</strong> for smarter and more adaptive PNT systems. Our work is adopted by industry, space agencies, and national infrastructure programs worldwide.
           </p>
-          <div class="about-diagram" aria-label="ICG-PNT Lab research overview">
-            <article class="about-diagram-card">
-              <div class="about-card-heading">
-                <span class="about-card-icon"><i class="fas fa-layer-group" aria-hidden="true"></i></span>
-                <h3>Full Spatial Hierarchy</h3>
-              </div>
-              <p>High-precision PNT across connected domains, from local navigation to space exploration.</p>
-              <div class="about-domain-row">
-                <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Ground</span>
-                <span><i class="fas fa-plane" aria-hidden="true"></i> Low Altitude</span>
-                <span><i class="fas fa-satellite" aria-hidden="true"></i> LEO</span>
-                <span><i class="fas fa-moon" aria-hidden="true"></i> Lunar & Deep Space</span>
-              </div>
-            </article>
-            <article class="about-diagram-card about-diagram-card-strong">
-              <div class="about-card-heading">
-                <span class="about-card-icon"><i class="fas fa-drafting-compass" aria-hidden="true"></i></span>
-                <h3>Geodetic Estimation Core</h3>
-              </div>
-              <p>Rigorous algorithms built on estimation theory, robust ambiguity resolution, and atmospheric modeling.</p>
-              <div class="about-method-grid">
-                <span>Estimation Theory</span>
-                <span>Robust IAR</span>
-                <span>Atmospheric Modeling</span>
-              </div>
-            </article>
-            <article class="about-diagram-card">
-              <div class="about-card-heading">
-                <span class="about-card-icon"><i class="fas fa-brain" aria-hidden="true"></i></span>
-                <h3>Adaptive AI-PNT Systems</h3>
-              </div>
-              <p>Artificial intelligence augments physical models for smarter, resilient, and adaptive PNT.</p>
-              <div class="about-ai-flow">
-                <span>Data</span>
-                <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                <span>Models</span>
-                <i class="fas fa-arrow-right" aria-hidden="true"></i>
-                <span>Decisions</span>
-              </div>
-            </article>
-            <div class="about-impact-bar">
-              <span class="about-impact-icon"><i class="fas fa-bullseye" aria-hidden="true"></i></span>
-              <p>Delivering high-precision PNT solutions for industry, space agencies, and national infrastructure worldwide.</p>
-            </div>
-          </div>
+          <figure class="about-research-figure">
+            <img src="media/research-directions.png" alt="ICG-PNT Lab research directions">
+          </figure>
         </section>
     design:
       columns: '1'
