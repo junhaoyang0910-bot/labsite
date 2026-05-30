@@ -496,6 +496,12 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
   text-justify: inter-word;
 }
 
+@media (min-width: 992px) {
+  #profile-page .col-lg-8 {
+    padding-top: 14.5rem;
+  }
+}
+
 #profile-page .article-style + .row > [class*='col-']:has(.ul-interests):last-child {
   flex: 0 0 68%;
   max-width: 68%;
