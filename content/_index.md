@@ -81,7 +81,7 @@ sections:
       columns: '1'
       css_class: home-about-block
       spacing:
-        padding: ['70px', '0', '55px', '0']
+        padding: ['60px', '0', '35px', '0']
   
   - block: collection
     content:
@@ -101,6 +101,9 @@ sections:
     design:
       view: card
       columns: '1'
+      css_class: home-latest-news
+      spacing:
+        padding: ['35px', '0', '20px', '0']
   
   - block: collection
     content:
@@ -114,6 +117,9 @@ sections:
     design:
       view: citation
       columns: '1'
+      css_class: home-latest-publications
+      spacing:
+        padding: ['25px', '0', '18px', '0']
 
   - block: markdown
     content:
@@ -123,4 +129,7 @@ sections:
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:
       columns: '1'
+      css_class: home-team-cta
+      spacing:
+        padding: ['18px', '0', '28px', '0']
 ---
