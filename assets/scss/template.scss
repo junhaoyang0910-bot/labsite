@@ -213,7 +213,7 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 
 .research-directions-showcase {
   position: relative;
-  max-width: 800px;
+  max-width: 1120px;
   margin: 0 auto;
   padding: 1.35rem 0 0.25rem;
 }
@@ -521,8 +521,8 @@ html.research-modal-lock {
 
 .research-directions-showcase .research-directions-track {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.1rem 1.25rem;
   overflow: visible;
   padding: 0;
   scroll-snap-type: none;
@@ -531,7 +531,7 @@ html.research-modal-lock {
 .research-directions-showcase .research-direction-card,
 .research-directions-showcase .research-direction-card:nth-child(even) {
   display: block;
-  width: 700px;
+  width: 100%;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
@@ -904,6 +904,7 @@ body:has(.lab-home-cover) .site-footer {
   }
 
   .research-directions-track {
+    grid-template-columns: 1fr !important;
     gap: 1rem;
     padding-bottom: 1.4rem;
   }
