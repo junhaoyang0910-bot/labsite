@@ -469,10 +469,17 @@ html.research-modal-lock {
 
 .research-projects-section h2 {
   margin: 0 0 1.4rem;
-  color: #133d70;
-  font-size: clamp(2rem, 3.3vw, 2.8rem);
-  font-weight: 800;
-  letter-spacing: -0.035em;
+  color: #333;
+  font-size: clamp(1.85rem, 2.6vw, 2.25rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.research-page-section .research-directions-heading p {
+  color: #333;
+  font-size: clamp(1.85rem, 2.6vw, 2.25rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
 }
 
 .research-project-list {
