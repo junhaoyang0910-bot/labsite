@@ -2,7 +2,7 @@
 title: "On the potential of undifferenced and uncombined GNSS time and frequency transfer with integer ambiguity resolution and satellite clocks estimated"
 authors:
   - Xiaolong Mi
-  - Baocheng Zhang
+  - Baocheng Zhang*
   - Ahmed El-Mowafy
   - Kan Wang
   - Yunbin Yuan

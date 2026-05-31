@@ -4,7 +4,7 @@ authors:
   - Xiaolong Mi
   - Chuanzhen Sheng
   - Ahmed El-Mowafy
-  - Baocheng Zhang
+  - Baocheng Zhang*
 date: "2021-06-16T00:00:00Z"
 doi: "10.1007/s10291-021-01151-w"
 publication_types: ["article-journal"]

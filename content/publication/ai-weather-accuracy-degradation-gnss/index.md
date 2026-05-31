@@ -3,7 +3,7 @@ title: "Spatiotemporal inhomogeneity of accuracy degradation in AI weather forec
 authors:
   - Junsheng Ding
   - Wu Chen
-  - Junping Chen
+  - Junping Chen*
   - Jungang Wang
   - Yize Zhang
   - Lei Bai

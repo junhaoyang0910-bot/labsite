@@ -4,7 +4,7 @@ authors:
   - Qiaoli Kong
   - Qian Li
   - Qi Bai
-  - Xiaolong Mi
+  - Xiaolong Mi*
   - Joseph Awange
   - Shi Wang
   - Yi Yang

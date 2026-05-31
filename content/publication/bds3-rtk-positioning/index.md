@@ -1,7 +1,7 @@
 ---
 title: "Initial assessment of single- and dual-frequency BDS-3 RTK positioning"
 authors:
-  - Yunbin Yuan
+  - Yunbin Yuan*
   - Xiaolong Mi
   - Baocheng Zhang
 date: "2020-01-01T00:00:00Z"

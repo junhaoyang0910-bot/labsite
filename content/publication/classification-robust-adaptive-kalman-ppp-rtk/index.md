@@ -2,7 +2,7 @@
 title: "A Combination of Classification Robust Adaptive Kalman Filter with PPP-RTK to Improve Fault Detection for Integrity Monitoring of Autonomous Vehicles"
 authors:
   - Hassan Elsayed
-  - Ahmed El-Mowafy
+  - Ahmed El-Mowafy*
   - Amir Allahvirdi-Zadeh
   - Kan Wang
   - Xiaolong Mi

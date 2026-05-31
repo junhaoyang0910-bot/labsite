@@ -1,7 +1,7 @@
 ---
 title: "Absolute and relative POD of LEO satellites in formation flying: Undifferenced and uncombined approach"
 authors:
-  - Xiaolong Mi
+  - Xiaolong Mi*
   - Amir Allahvirdi-Zadeh
   - Ahmed El-Mowafy
   - Zhiyong Huang

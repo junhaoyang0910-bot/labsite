@@ -2,7 +2,7 @@
 title: "On the temperature sensitivity of multi-GNSS intra- and inter-system biases and the impact on RTK positioning"
 authors:
   - Xiaolong Mi
-  - Baocheng Zhang
+  - Baocheng Zhang*
   - Robert Odolinski
   - Yunbin Yuan
 date: "2020-08-17T00:00:00Z"

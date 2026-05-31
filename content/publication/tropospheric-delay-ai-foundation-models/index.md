@@ -4,7 +4,7 @@ authors:
   - Junsheng Ding
   - Xiaolong Mi
   - Wu Chen
-  - Junping Chen
+  - Junping Chen*
   - Jungang Wang
   - Yize Zhang
   - Joseph L. Awange

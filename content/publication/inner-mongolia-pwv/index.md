@@ -2,7 +2,7 @@
 title: "Evaluation and analysis of the precipitable water vapor in Inner Mongolia of China"
 authors:
   - Qi Bai
-  - Qiaoli Kong
+  - Qiaoli Kong*
   - Xiaolong Mi
   - Wu Chen
   - Junsheng Ding

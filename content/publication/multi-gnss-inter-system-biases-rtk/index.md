@@ -2,7 +2,7 @@
 title: "Multi-GNSS inter-system biases: estimability analysis and impact on RTK positioning"
 authors:
   - Xiaolong Mi
-  - Baocheng Zhang
+  - Baocheng Zhang*
   - Yunbin Yuan
 date: "2019-06-05T00:00:00Z"
 doi: "10.1007/s10291-019-0873-8"

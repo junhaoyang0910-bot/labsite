@@ -2,7 +2,7 @@
 title: "Undifferenced and uncombined GNSS time and frequency transfer with integer ambiguity resolution"
 authors:
   - Xiaolong Mi
-  - Baocheng Zhang
+  - Baocheng Zhang*
   - Ahmed El-Mowafy
   - Kan Wang
   - Yunbin Yuan

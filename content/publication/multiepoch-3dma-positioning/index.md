@@ -5,7 +5,7 @@ authors:
   - Xiaolong Mi
   - Yang Yang
   - Wu Chen
-  - Duojie Weng
+  - Duojie Weng*
 date: "2025-02-25T00:00:00Z"
 doi: "10.1109/TIM.2025.3545163"
 publication_types: ["article-journal"]

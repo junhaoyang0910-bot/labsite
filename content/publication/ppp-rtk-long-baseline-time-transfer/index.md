@@ -1,7 +1,7 @@
 ---
 title: "A method of real-time long-baseline time transfer based on the PPP-RTK"
 authors:
-  - Kan Wang
+  - Kan Wang*
   - Baoqi Sun
   - Weijin Qin
   - Xiaolong Mi

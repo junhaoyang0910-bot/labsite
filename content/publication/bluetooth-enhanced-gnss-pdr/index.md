@@ -8,7 +8,7 @@ authors:
   - Ahmed Mansour
   - Yaxin Li
   - Yue Yu
-  - Duojie Weng
+  - Duojie Weng*
 date: "2024-10-16T00:00:00Z"
 doi: "10.1109/TIM.2024.3481547"
 publication_types: ["article-journal"]

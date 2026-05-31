@@ -1,7 +1,7 @@
 ---
 title: "A new high-precision short-term ionospheric TEC prediction model based on the DBO-BiLSTM algorithm: A case study of Europe"
 authors:
-  - Qiaoli Kong
+  - Qiaoli Kong*
   - Yunqing Huang
   - Xiaolong Mi
   - Qi Bai

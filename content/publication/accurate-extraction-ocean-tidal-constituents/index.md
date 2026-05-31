@@ -4,7 +4,7 @@ authors:
   - Yanguang Fu
   - Panlong Wang
   - Fukai Peng
-  - Yikai Feng
+  - Yikai Feng*
   - Mehdi Khaki
   - Xiaolong Mi
 date: "2025-05-29T00:00:00Z"

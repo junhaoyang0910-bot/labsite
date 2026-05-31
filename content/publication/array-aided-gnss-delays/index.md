@@ -2,7 +2,7 @@
 title: "Array-Aided GNSS for Precise Determination of Ionospheric and Tropospheric Delays With Integer Ambiguity Resolution"
 authors:
   - Xingyu Chen
-  - Xiaolong Mi
+  - Xiaolong Mi*
   - Yunbin Yuan
   - Ahmed El-Mowafy
   - Hongjin Xu

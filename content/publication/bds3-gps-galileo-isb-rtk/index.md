@@ -2,7 +2,7 @@
 title: "Characteristics of GPS, BDS2, BDS3 and Galileo inter-system biases and their influence on RTK positioning"
 authors:
   - Xiaolong Mi
-  - Baocheng Zhang
+  - Baocheng Zhang*
   - Yunbin Yuan
   - Xiaowen Luo
 date: "2020-01-01T00:00:00Z"
