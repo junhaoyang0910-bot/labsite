@@ -11,9 +11,14 @@
   var modal = document.querySelector("[data-research-modal]");
   var modalTitle = document.querySelector("[data-research-modal-title]");
   var modalDetail = document.querySelector("[data-research-modal-detail]");
+  var modalImage = document.querySelector("[data-research-modal-image]");
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var activeIndex = 0;
   var timer = null;
+
+  if (modal && modal.parentNode !== document.body) {
+    document.body.appendChild(modal);
+  }
 
   function setActive(index, shouldScroll) {
     activeIndex = (index + cards.length) % cards.length;
@@ -35,7 +40,7 @@
       return;
     }
     timer = window.setInterval(function () {
-      setActive(activeIndex + 1, true);
+      setActive(activeIndex + 1, false);
     }, 3600);
   }
 
@@ -54,6 +59,10 @@
     stopPlayback();
     modalTitle.textContent = card.getAttribute("data-title") || "";
     modalDetail.textContent = card.getAttribute("data-detail") || "";
+    if (modalImage) {
+      modalImage.src = card.getAttribute("data-image") || "";
+      modalImage.alt = card.querySelector("img") ? card.querySelector("img").alt : "";
+    }
     modal.classList.add("is-open");
     modal.setAttribute("aria-hidden", "false");
     document.documentElement.classList.add("research-modal-lock");
