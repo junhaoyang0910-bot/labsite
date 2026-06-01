@@ -70,7 +70,7 @@ sections:
           - Postdoctoral Fellows
           - PhD Students
           - Research Assistants
-      sort_by: Params.last_name
+      sort_by: Title
       sort_ascending: true
     design:
       show_interests: false

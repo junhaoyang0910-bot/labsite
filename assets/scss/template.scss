@@ -812,6 +812,13 @@ body:has(.lab-home-cover) .site-footer {
   display: none;
 }
 
+@media (min-width: 992px) {
+  #section-people .people-widget > .people-person {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
 .advisor-card h3 {
   margin: 0 0 0.55rem;
   color: #133d70;
