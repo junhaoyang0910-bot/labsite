@@ -1,7 +1,7 @@
 ---
-title: Shi Yao
-first_name: Shi
-last_name: Yao
+title: Yao Shi
+first_name: Yao
+last_name: Shi
 superuser: false
 role: Research Assistant
 organizations:
@@ -18,4 +18,4 @@ user_groups:
   - Research Assistants
 ---
 
-Shi Yao is a Master's student from Chang'an University. She received her Bachelor's degree from North China University of Science and Technology and her Master's degree from Chang'an University. Her research interests include Precise Point Positioning (PPP) ambiguity resolution data processing and the application of machine learning in GNSS.
+Yao Shi is a Master's student from Chang'an University. She received her Bachelor's degree from North China University of Science and Technology and her Master's degree from Chang'an University. Her research interests include Precise Point Positioning (PPP) ambiguity resolution data processing and the application of machine learning in GNSS.
