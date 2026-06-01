@@ -25,13 +25,21 @@ sections:
               <article class="research-project-item">
                 <span class="research-project-number">02</span>
                 <div>
+                  <h3>GNSS Positioning Infrastructure for the Greater Bay Area Low-Altitude Economy.</h3>
+                  <p><strong>Funded by:</strong> The Hong Kong Polytechnic University.</p>
+                  <p><strong>Period:</strong> 2026-2028. <strong>Role:</strong> PI.</p>
+                </div>
+              </article>
+              <article class="research-project-item">
+                <span class="research-project-number">03</span>
+                <div>
                   <h3>Physically Constrained Quadratic Programming for GNSS Precise Positioning in Degraded Environments.</h3>
                   <p><strong>Funded by:</strong> The Hong Kong Polytechnic University.</p>
                   <p><strong>Period:</strong> 2026-2029. <strong>Role:</strong> PI.</p>
                 </div>
               </article>
               <article class="research-project-item">
-                <span class="research-project-number">03</span>
+                <span class="research-project-number">04</span>
                 <div>
                   <h3>Real-time precise orbit determination and time synchronization of distributed satellite systems of low-earth orbit (LEO) based on satellite-based PPP services.</h3>
                   <p><strong>Funded by:</strong> The National Natural Science Foundation of China.</p>
@@ -39,7 +47,7 @@ sections:
                 </div>
               </article>
               <article class="research-project-item">
-                <span class="research-project-number">04</span>
+                <span class="research-project-number">05</span>
                 <div>
                   <h3>Precise Attitude and Orbit Determination of Low-cost Small LEO Satellites.</h3>
                   <p><strong>Funded by:</strong> The Hong Kong Polytechnic University.</p>
