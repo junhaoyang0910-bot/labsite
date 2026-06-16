@@ -82,6 +82,18 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
   box-shadow: 0 3px 18px rgba(0, 12, 32, 0.24);
 }
 
+.home-latest-news .card-simple {
+  max-width: 850px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.home-latest-news .article-banner {
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 .lab-home-hero {
   min-height: 100vh;
   padding: 0 !important;
