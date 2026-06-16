@@ -43,8 +43,8 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand-mobile-wrapper {
 @media (min-width: 992px) {
   #navbar-main .container-xl {
     max-width: none;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 0.85rem;
+    padding-left: 1.5rem;
   }
 
   #navbar-main .navbar-collapse {
@@ -62,9 +62,9 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand-mobile-wrapper {
 
   #navbar-main .main-menu-item ul li .nav-link,
   #navbar-main .nav-icons .nav-link {
-    padding-right: 0.72rem;
-    padding-left: 0.72rem;
-    font-size: 1.04rem;
+    padding-right: 0.58rem;
+    padding-left: 0.58rem;
+    font-size: 0.96rem;
     font-weight: 600;
   }
 }
