@@ -9,7 +9,7 @@ sections:
     content:
       title: Contact
       text: |-
-        这里也可以写类似opening/recruit: We welcome applications for PhD, Research Assistant, Postdoc, and other research talents with track record and strong commitment. Please address all interests to Prof. Mi.
+        We welcome applications from highly motivated students and researchers at all levels, including PhD candidates, Research Assistants, and Postdoctoral Researchers. Applicants with strong backgrounds in geodesy, GNSS, navigation, remote sensing, computer science, artificial intelligence, or related disciplines are encouraged to contact Prof. Mi for potential opportunities.
       email: xiaolong.mi@polyu.edu.hk
       phone: '+852 3400 8143'
       address:

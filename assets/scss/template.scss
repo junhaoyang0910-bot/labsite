@@ -230,9 +230,9 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 }
 
 .home-about-section h2 {
-  margin: 0 0 1.35rem;
+  margin: 0 0 1rem;
   color: #133d70;
-  font-size: clamp(2.15rem, 4vw, 3.15rem);
+  font-size: clamp(1.85rem, 3.2vw, 2.5rem);
   font-weight: 800;
   letter-spacing: -0.03em;
   text-align: center;
@@ -240,10 +240,10 @@ body:has(.lab-home-cover) #navbar-main .navbar-brand img {
 
 .home-about-text {
   max-width: 1120px;
-  margin: 0 auto 2.5rem;
+  margin: 0 auto 0.75rem;
   color: #1f2933;
-  font-size: clamp(1.05rem, 1.45vw, 1.28rem);
-  line-height: 1.8;
+  font-size: clamp(0.98rem, 1.15vw, 1.12rem);
+  line-height: 1.7;
   text-align: justify;
 }
 
@@ -569,7 +569,7 @@ html.research-modal-lock {
 
 .research-topics {
   max-width: 1080px;
-  margin: 4rem auto 0;
+  margin: 3rem auto 0;
 }
 
 .research-topics > h2 {
@@ -581,17 +581,17 @@ html.research-modal-lock {
 }
 
 .research-topic {
-  margin-bottom: 4.75rem;
+  margin-bottom: 3rem;
 }
 
 .research-topic:last-child {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .research-topic h3 {
-  margin: 0 0 1.25rem;
+  margin: 0 0 1rem;
   color: #102f56;
-  font-size: clamp(1.45rem, 2.4vw, 2rem);
+  font-size: clamp(1.25rem, 1.85vw, 1.65rem);
   font-weight: 800;
   line-height: 1.3;
 }
@@ -600,14 +600,14 @@ html.research-modal-lock {
   display: block;
   width: 100%;
   height: auto;
-  margin: 0 auto 1.7rem;
+  margin: 0 auto 1.35rem;
   border: 1px solid rgba(20, 72, 125, 0.14);
   border-radius: 8px;
   box-shadow: 0 14px 34px rgba(12, 44, 84, 0.12);
 }
 
 .research-topic p {
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
   color: #25384c;
   font-size: 1.06rem;
   line-height: 1.8;
@@ -625,7 +625,11 @@ html.research-modal-lock {
 
 .research-topic li {
   padding-left: 0.2rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.home-section:has(.research-page-section) {
+  padding-bottom: 32px;
 }
 
 .research-directions-showcase .research-directions-track {
@@ -1038,7 +1042,7 @@ body:has(.lab-home-cover) .site-footer {
   }
 
   .research-topics {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
   }
 
   .research-topics > h2 {
@@ -1046,16 +1050,16 @@ body:has(.lab-home-cover) .site-footer {
   }
 
   .research-topic {
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .research-topic h3 {
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
+    margin-bottom: 0.85rem;
+    font-size: 1.25rem;
   }
 
   .research-topic img {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
     border-radius: 6px;
   }
 
