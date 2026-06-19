@@ -1158,6 +1158,12 @@ body:has(.lab-home-cover) .site-footer {
   text-align: justify;
 }
 
+// Justify the body copy of the Welcome news post only.
+body[data-wc-page-id='70aee9b73b06130930a16676d324f350'] .article-style {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 // Author profile pages.
 #profile-page {
   padding-top: 5rem !important;
