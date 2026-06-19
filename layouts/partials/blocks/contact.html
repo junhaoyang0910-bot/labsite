@@ -1,0 +1,106 @@
+{{/* Custom ICG-PNT contact block. */}}
+{{ $page := .page }}
+{{ $block := .wcBlock }}
+{{ $data := $block.content }}
+{{ $address := partial "functions/get_address" (dict "root" . "address" $data.address) }}
+
+<div class="col-12">
+  <div class="contact-page">
+    <section class="contact-hero">
+      <img src="{{ "media/contact-banner.png" | relURL }}" alt="Hong Kong skyline connected by positioning and satellite networks">
+      <div class="contact-hero-overlay">
+        <h1>Contact</h1>
+        <span class="contact-title-rule" aria-hidden="true"></span>
+        <div class="contact-intro">
+          {{ with $block.Params.content.text }}
+            {{ . | markdownify }}
+          {{ else }}
+            {{ with $data.text }}{{ . | markdownify }}{{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <div class="contact-main-grid">
+      <section class="contact-card contact-information" aria-labelledby="contact-information-heading">
+        <div class="contact-card-heading">
+          <span class="contact-heading-icon"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+          <h2 id="contact-information-heading">Contact Information</h2>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-icon"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+          <div>
+            <h3>Email</h3>
+            <a href="mailto:{{ $data.email }}">{{ $data.email }}</a>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-icon"><i class="fas fa-phone-alt" aria-hidden="true"></i></span>
+          <div>
+            <h3>Phone</h3>
+            <a href="tel:{{ replace $data.phone " " "" }}">{{ $data.phone }}</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-card contact-join" aria-labelledby="contact-join-heading">
+        <div class="contact-card-heading contact-join-heading">
+          <span class="contact-heading-icon"><i class="fas fa-users" aria-hidden="true"></i></span>
+          <div>
+            <h2 id="contact-join-heading">Join Us</h2>
+            <p>We are always looking for talented and motivated individuals.</p>
+          </div>
+        </div>
+        <div class="contact-opportunities">
+          <div class="contact-opportunity">
+            <span><i class="fas fa-graduation-cap" aria-hidden="true"></i></span>
+            <h3>PhD Candidates</h3>
+          </div>
+          <div class="contact-opportunity">
+            <span><i class="fas fa-id-badge" aria-hidden="true"></i></span>
+            <h3>Research Assistants</h3>
+          </div>
+          <div class="contact-opportunity">
+            <span><i class="fas fa-user-graduate" aria-hidden="true"></i></span>
+            <h3>Postdoctoral Researchers</h3>
+          </div>
+          <div class="contact-opportunity">
+            <span><i class="fas fa-globe" aria-hidden="true"></i></span>
+            <h3>Visiting Students &amp; Scholars</h3>
+          </div>
+        </div>
+        <div class="contact-application-note">
+          <i class="far fa-star" aria-hidden="true"></i>
+          <p>Outstanding applicants are encouraged to apply for HKPFS and other scholarships. Please send your CV to <a href="mailto:{{ $data.email }}">{{ $data.email }}</a>.</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="contact-card contact-location" aria-labelledby="contact-location-heading">
+      <div class="contact-address">
+        <div class="contact-card-heading">
+          <span class="contact-heading-icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></span>
+          <h2 id="contact-location-heading">Find Us</h2>
+        </div>
+        <address>
+          ZN610, 6/F, Block Z<br>
+          181 Chatham Road South<br>
+          Department of Land Surveying and Geo-Informatics<br>
+          The Hong Kong Polytechnic University<br>
+          Hung Hom, Kowloon, Hong Kong
+        </address>
+      </div>
+      <div class="contact-map">
+        <div class="d-none">
+          <input id="map-provider" value="{{ lower site.Params.features.map.provider }}">
+          <input id="map-lat" value="{{ $data.coordinates.latitude }}">
+          <input id="map-lng" value="{{ $data.coordinates.longitude }}">
+          <input id="map-dir" value="{{ $address }}">
+          <input id="map-zoom" value="{{ site.Params.features.map.zoom | default "15" }}">
+          <input id="map-api-key" value="{{ site.Params.features.map.api_key }}">
+        </div>
+        <div id="map"></div>
+      </div>
+    </section>
+  </div>
+</div>

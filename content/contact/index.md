@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: contact
     content:
-      title: Contact
+      title: ''
       text: |-
         We welcome applications from highly motivated students and researchers at all levels, including PhD candidates, Research Assistants, and Postdoctoral Researchers. Applicants with strong backgrounds in geodesy, GNSS, navigation, remote sensing, computer science, artificial intelligence, or related disciplines are encouraged to contact Prof. Mi for potential opportunities.
       email: xiaolong.mi@polyu.edu.hk
@@ -45,6 +45,6 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ['50px', '0', '0', '0']
+        padding: ['32px', '0', '24px', '0']
 
 ---
