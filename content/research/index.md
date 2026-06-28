@@ -17,13 +17,21 @@ sections:
               <article class="research-project-item">
                 <span class="research-project-number">01</span>
                 <div>
+                  <h3>Autonomous Real-time Onboard Precise Orbit Determination and Time Synchronization for Lunar Navigation Satellites.</h3>
+                  <p><strong>Funded by:</strong> The Research Grants Council (RGC) of Hong Kong.</p>
+                  <p><strong>Period:</strong> 2027-2030. <strong>Role:</strong> PI.</p>
+                </div>
+              </article>
+              <article class="research-project-item">
+                <span class="research-project-number">02</span>
+                <div>
                   <h3>Autonomous Real-Time Cooperative Localization of UAV Formations Using Low-cost GNSS and MEMS IMU with Ionospheric-Constrained Quadratic Programming.</h3>
                   <p><strong>Funded by:</strong> The Research Grants Council (RGC) of Hong Kong.</p>
                   <p><strong>Period:</strong> 2026-2029. <strong>Role:</strong> PI.</p>
                 </div>
               </article>
               <article class="research-project-item">
-                <span class="research-project-number">02</span>
+                <span class="research-project-number">03</span>
                 <div>
                   <h3>GNSS Positioning Infrastructure for the Greater Bay Area Low-Altitude Economy.</h3>
                   <p><strong>Funded by:</strong> The Hong Kong Polytechnic University.</p>
@@ -31,7 +39,7 @@ sections:
                 </div>
               </article>
               <article class="research-project-item">
-                <span class="research-project-number">03</span>
+                <span class="research-project-number">04</span>
                 <div>
                   <h3>Physically Constrained Quadratic Programming for GNSS Precise Positioning in Degraded Environments.</h3>
                   <p><strong>Funded by:</strong> The Hong Kong Polytechnic University.</p>
@@ -39,7 +47,7 @@ sections:
                 </div>
               </article>
               <article class="research-project-item">
-                <span class="research-project-number">04</span>
+                <span class="research-project-number">05</span>
                 <div>
                   <h3>Real-time precise orbit determination and time synchronization of distributed satellite systems of low-earth orbit (LEO) based on satellite-based PPP services.</h3>
                   <p><strong>Funded by:</strong> The National Natural Science Foundation of China.</p>
@@ -47,7 +55,7 @@ sections:
                 </div>
               </article>
               <article class="research-project-item">
-                <span class="research-project-number">05</span>
+                <span class="research-project-number">06</span>
                 <div>
                   <h3>Precise Attitude and Orbit Determination of Low-cost Small LEO Satellites.</h3>
                   <p><strong>Funded by:</strong> The Hong Kong Polytechnic University.</p>
