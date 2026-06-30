@@ -764,16 +764,16 @@ body:has(.lab-home-cover) .site-footer {
 
 .pi-profile {
   display: grid;
-  grid-template-columns: 400px minmax(340px, 520px);
-  column-gap: 3.25rem;
+  grid-template-columns: 320px minmax(520px, 720px);
+  column-gap: 2.6rem;
   align-items: start;
   justify-content: center;
-  max-width: 1030px;
-  margin: 0 auto 4rem;
+  max-width: 1180px;
+  margin: 0 auto 3.2rem;
 }
 
 .pi-card {
-  padding-right: 3.25rem;
+  padding-right: 2.6rem;
   border-right: 1px solid #dfe4ea;
 }
 
@@ -813,12 +813,14 @@ body:has(.lab-home-cover) .site-footer {
 
 .pi-biography {
   text-align: justify;
+  line-height: 1.58;
+  margin-bottom: 1rem;
 }
 
 .pi-academic-links {
   display: flex;
   gap: 2rem;
-  margin-top: 2.1rem;
+  margin-top: 1.45rem;
 }
 
 .pi-academic-links a {
