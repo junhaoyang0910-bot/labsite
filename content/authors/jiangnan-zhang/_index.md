@@ -7,11 +7,9 @@ role: PhD Student
 organizations:
   - name: The Hong Kong Polytechnic University
     url: 'https://www.polyu.edu.hk/lsgi/'
-bio: Research interests include real-time orbit determination and AI applications in geodesy and navigation.
+bio: Research interests include AI in geodesy and navigation.
 interests:
-  - Real-time orbit determination
-  - Artificial intelligence in geodesy
-  - Navigation
+  - AI in geodesy and navigation
 social: []
 email: ''
 highlight_name: false
