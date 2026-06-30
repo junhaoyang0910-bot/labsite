@@ -13,7 +13,7 @@ sections:
       email: xiaolong.mi@polyu.edu.hk
       phone: '+852 3400 8143'
       address:
-        street: ZN610, 6/F, Block Z, 181 Chatham Rd. South. Department of Land Surveying and Geo-Informatics, The Hong Kong Polytechnic University
+        street: ZN610, 6/F, Block Z, 181 Chatham Rd. South. Department of Land Surveying and Geospatial Science (LSGS), The Hong Kong Polytechnic University
         city: Hung Hom, Kowloon
         region: Hong Kong
         postcode: ''

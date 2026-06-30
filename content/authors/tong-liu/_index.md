@@ -19,4 +19,4 @@ user_groups:
   - Postdoctoral Fellows
 ---
 
-Tong Liu is a Postdoctoral Fellow in the Department of Land Surveying and Geo-Informatics (LSGI) at The Hong Kong Polytechnic University (PolyU). He received his B.Eng. and M.Eng. degrees from Shandong University and his Ph.D. degree from the Harbin Institute of Technology, Shenzhen. His research interests include GNSS ionospheric monitoring, ionospheric impacts on precise positioning, and the development of modeling and mitigation strategies.
+Tong Liu is a Postdoctoral Fellow in the Department of Land Surveying and Geospatial Science (LSGS) at The Hong Kong Polytechnic University (PolyU). He received his B.Eng. and M.Eng. degrees from Shandong University and his Ph.D. degree from the Harbin Institute of Technology, Shenzhen. His research interests include GNSS ionospheric monitoring, ionospheric impacts on precise positioning, and the development of modeling and mitigation strategies.

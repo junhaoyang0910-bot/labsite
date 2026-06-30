@@ -19,4 +19,4 @@ user_groups:
   - Postdoctoral Fellows
 ---
 
-Xingyu Chen is a Postdoctoral Fellow in the Department of Land Surveying and Geo-Informatics (LSGI) at The Hong Kong Polytechnic University (PolyU). He received his Ph.D. degree in Geodesy and Surveying Engineering from the University of Chinese Academy of Sciences. His research interests include GNSS atmospheric delay modeling, precise positioning, and time and frequency transfer.
+Xingyu Chen is a Postdoctoral Fellow in the Department of Land Surveying and Geospatial Science (LSGS) at The Hong Kong Polytechnic University (PolyU). He received his Ph.D. degree in Geodesy and Surveying Engineering from the University of Chinese Academy of Sciences. His research interests include GNSS atmospheric delay modeling, precise positioning, and time and frequency transfer.

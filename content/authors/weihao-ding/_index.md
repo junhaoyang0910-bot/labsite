@@ -18,4 +18,4 @@ user_groups:
   - PhD Students
 ---
 
-Weihao Ding is a PhD student in the Department of Land Surveying and Geo-Informatics (LSGI) at The Hong Kong Polytechnic University (PolyU). He received his B.S. and M.S. degrees in Petroleum Engineering from Texas A&M University in 2015 and 2017. His current research interests include ambiguity resolution and positioning in noise-contaminated conditions.
+Weihao Ding is a PhD student in the Department of Land Surveying and Geospatial Science (LSGS) at The Hong Kong Polytechnic University (PolyU). He received his B.S. and M.S. degrees in Petroleum Engineering from Texas A&M University in 2015 and 2017. His current research interests include ambiguity resolution and positioning in noise-contaminated conditions.

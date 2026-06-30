@@ -20,4 +20,4 @@ user_groups:
   - PhD Students
 ---
 
-Yang Wang is a PhD student in the Department of Land Surveying and Geo-Informatics (LSGI) at The Hong Kong Polytechnic University (PolyU). He received both his Bachelor's and Master's degrees in Geodesy from Wuhan University. His research interests include GNSS positioning, lunar navigation satellite system construction, cislunar satellite orbit determination, and related technologies for space navigation and positioning.
+Yang Wang is a PhD student in the Department of Land Surveying and Geospatial Science (LSGS) at The Hong Kong Polytechnic University (PolyU). He received both his Bachelor's and Master's degrees in Geodesy from Wuhan University. His research interests include GNSS positioning, lunar navigation satellite system construction, cislunar satellite orbit determination, and related technologies for space navigation and positioning.

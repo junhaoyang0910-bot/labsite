@@ -6,7 +6,7 @@ image:
   focal_point: center
 ---
 
-We are pleased to welcome you to the Intelligent Computational Geodesy and PNT (ICG-PNT) Lab at the Department of Land Surveying and Geo-Informatics, The Hong Kong Polytechnic University.
+We are pleased to welcome you to the Intelligent Computational Geodesy and PNT (ICG-PNT) Lab at the Department of Land Surveying and Geospatial Science (LSGS), The Hong Kong Polytechnic University.
 
 <!--more-->
 

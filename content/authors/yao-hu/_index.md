@@ -19,4 +19,4 @@ user_groups:
   - Research Assistants
 ---
 
-Yao Hu is a Research Assistant in the Department of Land Surveying and Geo-Informatics (LSGI) at The Hong Kong Polytechnic University (PolyU). She obtained her Master's degree in Marine Science from Nanjing Normal University. Her research interests include PPP navigation and time transfer, and the development of embodied intelligent navigation based on unmanned aerial vehicles (UAVs).
+Yao Hu is a Research Assistant in the Department of Land Surveying and Geospatial Science (LSGS) at The Hong Kong Polytechnic University (PolyU). She obtained her Master's degree in Marine Science from Nanjing Normal University. Her research interests include PPP navigation and time transfer, and the development of embodied intelligent navigation based on unmanned aerial vehicles (UAVs).

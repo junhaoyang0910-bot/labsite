@@ -19,7 +19,7 @@ sections:
               <span>Geodesy and PNT (ICG-PNT) Lab</span>
             </h1>
             <p class="lab-home-affiliation">The Hong Kong Polytechnic University</p>
-            <p class="lab-home-department">Department of Land Surveying and Geo-Informatics</p>
+            <p class="lab-home-department">Department of Land Surveying and Geospatial Science (LSGS)</p>
             <a class="lab-home-scroll" href="#about-us" aria-label="Explore the site">
               Explore Our Work
               <i class="fas fa-chevron-down" aria-hidden="true"></i>
@@ -39,9 +39,9 @@ sections:
       text: |
         <section id="about-us" class="home-about-section">
           <h2>About Us</h2>
-          <p class="home-about-text">
-            The Intelligent Computational Geodesy and PNT (ICG-PNT) Lab develops rigorous theory and algorithms for <strong class="about-highlight">high-precision Positioning, Navigation, and Timing (PNT)</strong> across the full spatial hierarchy, spanning ground and low-altitude applications, LEO satellite orbit determination, and lunar and deep-space navigation. Our research is grounded in <strong class="about-highlight">geodetic estimation theory</strong>, with a focus on <strong class="about-highlight">robust integer ambiguity resolution (IAR)</strong> and <strong class="about-highlight">precise atmospheric modeling</strong>, augmented by <strong class="about-highlight">artificial intelligence</strong> for smarter and more adaptive PNT systems. Our work is adopted by industry, space agencies, and national infrastructure programs worldwide.
-          </p>
+          <p class="home-about-text">The Intelligent Computational Geodesy and PNT (ICG-PNT) Lab develops advanced theories and algorithms for high-precision Positioning, Navigation, and Timing (PNT), rooted in a strong foundation of Global Navigation Satellite Systems (GNSS). Our research addresses the critical challenge of achieving reliable, high-accuracy positioning across diverse environments, spanning terrestrial and urban areas, satellite orbits, and deep space.</p>
+          <p class="home-about-text">At the core of our lab is Intelligent Computational Geodesy, a methodological framework that integrates rigorous geodetic modeling with modern computational and data-driven techniques. We focus on key challenges such as integer ambiguity resolution (IAR), atmospheric error modeling, and high-dimensional parameter estimation, while incorporating artificial intelligence to enhance model adaptivity, robustness, and real-time performance.</p>
+          <p class="home-about-text">This unified approach is applied consistently across the full spatial hierarchy, extending from ground and low-altitude platforms to LEO satellite systems, and further to lunar and deep-space navigation. Concurrently, it enables resilient and alternative PNT solutions in GNSS-challenged environments through multi-sensor fusion, integrity monitoring, and emerging quantum technologies.</p>
         </section>
     design:
       columns: '1'

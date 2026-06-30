@@ -18,4 +18,4 @@ user_groups:
   - PhD Students
 ---
 
-Yuyan Wang is a PhD student in the Department of Land Surveying and Geo-Informatics (LSGI) at The Hong Kong Polytechnic University (PolyU). She received her Bachelor's degree from Mount Holyoke College, USA. Her research interests include GNSS and Precise Point Positioning (PPP).
+Yuyan Wang is a PhD student in the Department of Land Surveying and Geospatial Science (LSGS) at The Hong Kong Polytechnic University (PolyU). She received her Bachelor's degree from Mount Holyoke College, USA. Her research interests include GNSS and Precise Point Positioning (PPP).
