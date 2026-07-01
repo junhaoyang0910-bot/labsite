@@ -10,9 +10,7 @@ organizations:
 bio: Research interests include precise orbit determination for GNSS/LEO satellites and global geodetic parameter estimation.
 interests:
   - GNSS/LEO precise orbit determination
-  - Inter-satellite links
-  - Satellite laser ranging
-  - Global geodetic parameters
+  - estimation of global geodetic parameters
 social: []
 email: ''
 highlight_name: false
