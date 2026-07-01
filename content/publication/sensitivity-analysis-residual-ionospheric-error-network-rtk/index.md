@@ -20,16 +20,17 @@ abstract: >-
   network Real-Time Kinematic (RTK) applications is highly sensitive to residual atmospheric errors.
   To accurately quantify these impacts and optimize ambiguity resolution strategies, this study
   proposes an enhanced analysis framework and presents a comprehensive sensitivity analysis of the GF
-  TCAR model under different atmospheric and noise conditions. Theoretical derivations and
-  simulations confirm that non-dispersive errors, such as tropospheric delays, are effectively
-  mitigated within the GF framework. In addition, the study establishes quantitative accuracy
-  thresholds for ionospheric modeling across constellations. While Extra-Wide-Lane (EWL) and
-  Wide-Lane (WL) ambiguities remain robust against ionospheric errors of up to dozens of Total
-  Electron Content Units (TECU) and several TECU, respectively, Narrow-Lane (NL) ambiguity resolution
-  is the most challenging step, requiring residual errors to remain about within ± 0.2 TECU.
-  Furthermore, the analysis shows that EWL ambiguity resolution is relatively insensitive to
-  measurement noise, whereas WL ambiguity resolution is predominantly noise-limited, especially as
-  the EWL wavelength increases. These findings provide valuable error-tolerance...
+  TCAR model under different atmospheric and noise conditions. Theoretical derivations and simulations
+  confirm that non-dispersive errors, such as tropospheric delays, are effectively mitigated within
+  the GF framework. In addition, the study establishes quantitative accuracy thresholds for
+  ionospheric modeling across constellations. While Extra-Wide-Lane (EWL) and Wide-Lane (WL)
+  ambiguities remain robust against ionospheric errors of up to dozens of Total Electron Content Units
+  (TECU) and several TECU, respectively, Narrow-Lane (NL) ambiguity resolution is the most challenging
+  step, requiring residual errors to remain about within ± 0.2 TECU. Furthermore, the analysis shows
+  that EWL ambiguity resolution is relatively insensitive to measurement noise, whereas WL ambiguity
+  resolution is predominantly noise-limited, especially as the EWL wavelength increases. These
+  findings provide valuable error-tolerance references for the quality control of ionospheric
+  corrections in network RTK services.
 summary: ""
 tags: [Network RTK, Ionosphere, Integer ambiguity resolution]
 featured: false
