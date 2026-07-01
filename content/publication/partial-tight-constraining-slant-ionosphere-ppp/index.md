@@ -3,7 +3,7 @@ title: "Effect of Constraining a Limited Number of Slant Ionospheric Corrections
 authors:
   - Jiahuan Hu
   - Yao Shi
-  - Pan Li
+  - Pan Li*
   - Wu Chen
   - Long Tang
   - Feng Zhou

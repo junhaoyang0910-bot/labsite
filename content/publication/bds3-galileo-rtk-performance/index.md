@@ -2,7 +2,7 @@
 title: "RTK positioning performance analysis for combined BDS-3 and Galileo"
 authors:
   - Xiaolong Mi
-  - Yunbin Yuan
+  - Yunbin Yuan*
   - Baocheng Zhang
 date: "2023-01-01T00:00:00Z"
 doi: "10.13203/j.whugis20200483"

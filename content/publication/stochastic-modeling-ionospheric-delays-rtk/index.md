@@ -2,7 +2,7 @@
 title: "Stochastic modeling of between-receiver single-differenced ionospheric delays and its application to medium baseline RTK positioning"
 authors:
   - Xiaolong Mi
-  - Baocheng Zhang
+  - Baocheng Zhang*
   - Yunbin Yuan
 date: "2019-09-01T00:00:00Z"
 doi: "10.1088/1361-6501/ab11b5"

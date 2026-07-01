@@ -3,7 +3,7 @@ title: "Multi-GNSS RTK positioning with integer ambiguity resolution: from doubl
 authors:
   - Xiaolong Mi
   - Baocheng Zhang
-  - Yunbin Yuan
+  - Yunbin Yuan*
 date: "2021-01-01T00:00:00Z"
 doi: "10.5081/jgps.17.2.151"
 publication_types: ["article-journal"]

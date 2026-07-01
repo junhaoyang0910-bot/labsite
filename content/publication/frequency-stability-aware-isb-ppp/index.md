@@ -2,10 +2,10 @@
 title: "Frequency Stability-Aware Stochastic Modeling for Inter-System Bias in Multi-GNSS PPP"
 authors:
   - Jinyang Han
-  - Jie Zhang
+  - Jie Zhang*
   - Shiming Zhong
   - Xiaolong Mi
-  - Daqian Lyu
+  - Daqian Lyu*
   - Runmin Lu
   - Bibo Peng
 date: "2025-01-01T00:00:00Z"

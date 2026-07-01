@@ -2,7 +2,7 @@
 title: "Kinematic orbit determination for BDS-3 satellites with inter-satellite link data"
 authors:
   - Chao Yang
-  - Jing Guo
+  - Jing Guo*
   - Xiaolong Mi
   - Yuanfan Deng
   - Xuexi Liu

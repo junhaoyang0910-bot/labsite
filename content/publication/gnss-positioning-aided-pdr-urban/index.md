@@ -2,7 +2,7 @@
 title: "GNSS Positioning Aided with Pedestrian Dead Reckoning (PDR) in Urban Areas"
 authors:
   - Huan Luo
-  - Duojie Weng
+  - Duojie Weng*
   - Ahmed Mansour
   - Xiaolong Mi
   - Yang Yang

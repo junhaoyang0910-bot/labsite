@@ -6,7 +6,7 @@ authors:
   - Junhui Wang
   - Xiaolong Mi
   - Yang Yang
-  - Rui Sun
+  - Rui Sun*
 date: "2026-12-01T00:00:00Z"
 doi: "10.1186/s43020-026-00202-2"
 publication_types: ["article-journal"]

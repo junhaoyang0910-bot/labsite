@@ -3,7 +3,7 @@ title: "Adaptive Jamming Mitigation in Single-Antenna Receivers With Spectral An
 authors:
   - Mengyu Ding
   - Wu Chen
-  - Duojie Weng
+  - Duojie Weng*
   - Xiaolong Mi
 date: "2024-10-01T00:00:00Z"
 doi: "10.1109/TAES.2024.3397290"

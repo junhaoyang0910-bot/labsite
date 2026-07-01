@@ -3,7 +3,7 @@ title: "AI Foundation Models Facilitate Real-time Global GNSS Precipitable Water
 authors:
   - Junsheng Ding
   - Wu Chen
-  - Junping Chen
+  - Junping Chen*
   - Jungang Wang
   - Yize Zhang
   - Duojie Weng
