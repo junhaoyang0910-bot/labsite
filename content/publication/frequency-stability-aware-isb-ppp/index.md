@@ -14,10 +14,10 @@ publication_types: ["article-journal"]
 publication: "*IEEE Transactions on Instrumentation and Measurement*, 74, 1-10"
 publication_short: ""
 abstract: >-
-  Global navigation satellite systems (GNSSs) exhibit diﬀerences in coordinate and time References,
+  Global navigation satellite systems (GNSSs) exhibit differences in coordinate and time references,
   necessitating the consideration of inter-system bias (ISB) in multi-GNSS precise point positioning
   (PPP). Traditional ISB estimation models, such as white noise (ISB-WN), random walk (ISB-RW), and
-  constant (ISB-CT) models, apply uniform Kalman filtering process noise across di ﬀerent receivers,
+  constant (ISB-CT) models, apply uniform Kalman filtering process noise across different receivers,
   precise products, and navigation systems, often neglecting ISB variations under diverse conditions.
   This study introduces a novel stochastic model that incorporates the frequency stability of ISB
   parameters (ISB-FS). By integrating the time-frequency characteristics of navigation system time
@@ -26,7 +26,7 @@ abstract: >-
   involving ten stations from four manufacturers demonstrates that the ISB-FS model enhances
   multi-GNSS PPP solutions accuracy: positioning accuracy improves by approximately 3%, time transfer
   precision by 10%, and long-term frequency stability (245760 s) by up to 38%, while maintaining
-  comparable Zenith tropospheric delay (ZTD) accuracy. This research o ﬀers a refined ISB estimation
+  comparable Zenith tropospheric delay (ZTD) accuracy. This research offers a refined ISB estimation
   strategy, advancing the precision of multi-GNSS PPP solutions.
 summary: ""
 tags: [GNSS, PPP, Inter-system bias]

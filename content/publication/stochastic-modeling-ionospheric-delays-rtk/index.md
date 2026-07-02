@@ -24,7 +24,7 @@ abstract: >-
   so obtained in the second step we estimate the variance of the SD ionospheric delays with the
   ionosphere-float model, in which the SD ionospheric delays are assumed to be fully unknown.
   Numerical tests based on GPS data from the National Geodetic Survey CORS network demonstrate a
-  clear improvement in medium baseline real time kinematic (RTK) positioning performance, as compared
+  clear improvement in medium baseline real-time kinematic (RTK) positioning performance, as compared
   to the ionosphere-weighted model that employs the unrealistic stochastic models for the pseudo SD
   ionospheric observables.
 summary: ""
