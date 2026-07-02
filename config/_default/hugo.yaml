@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Intelligent Computational Geodesy and PNT (ICG-PNT) Lab # Website name
-baseURL: 'https://junhaoyang0910-bot.github.io/labsite/' # Website URL
+baseURL: 'https://www.icg-pnt.com/' # Website URL
 
 ############################
 ## LANGUAGE
