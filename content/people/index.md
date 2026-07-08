@@ -19,8 +19,8 @@ sections:
           </div>
           <div class="pi-about">
             <h2>Principal Investigator</h2>
-            <p class="pi-biography">Dr. Xiaolong Mi is an Assistant Professor in the Department of Land Surveying and Geospatial Science (LSGS) at The Hong Kong Polytechnic University, where he also leads the Intelligent Computational Geodesy and PNT (ICG-PNT) Lab. His research focuses on developing computational and intelligent frameworks for high-precision positioning, navigation, and timing (PNT) across a comprehensive spatial hierarchy, ranging from GNSS-based terrestrial and low-altitude applications to LEO satellite constellations and emerging lunar navigation systems.</p>
-            <p class="pi-biography">He has extensive expertise in GNSS precise positioning (including PPP, RTK, and PPP-RTK), undifferenced and uncombined modeling, real-time precise orbit determination for LEO satellites, and resilient, multi-sensor PNT in GNSS-challenged environments. A central theme of his research involves leveraging AI-enhanced geodetic modeling, with a particular focus on addressing ionospheric and tropospheric delays in low-latitude regions such as Hong Kong and the Greater Bay Area, to enhance the accuracy, convergence, and integrity of modern PNT systems. Dr. Mi holds dual PhD degrees from the University of Chinese Academy of Sciences and Curtin University. He has authored over 40 peer-reviewed papers and serves as Principal Investigator (PI) or Co-PI on multiple funded projects focusing on GNSS, LEO PNT, and resilient PNT infrastructure.</p>
+            <p class="pi-biography">Dr. Xiaolong Mi is an Assistant Professor in the Department of Land Surveying and Geospatial Science at The Hong Kong Polytechnic University, where he leads the Intelligent Computational Geodesy and PNT Lab. His research focuses on high-precision positioning, navigation, and timing (PNT), with applications spanning GNSS-based terrestrial positioning, low-altitude platforms, LEO satellite precise orbit determination, and emerging lunar navigation systems.</p>
+            <p class="pi-biography">His work integrates advanced geodetic modeling, multi-GNSS data processing, real-time precise positioning, and AI-enhanced methods to improve the accuracy, convergence, reliability, and integrity of modern PNT systems, particularly in GNSS-challenged environments. Dr. Mi holds dual PhD degrees from the University of Chinese Academy of Sciences and Curtin University. He has authored over 40 peer-reviewed papers and has served as Principal Investigator (PI) or Co-PI on multiple funded projects focusing on GNSS, LEO PNT, and resilient PNT infrastructure.</p>
             <div class="pi-academic-links">
               <a href="https://scholar.google.com/citations?hl=en&user=Ps_txBAAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
                 <i class="ai ai-google-scholar" aria-hidden="true"></i>
@@ -29,6 +29,14 @@ sections:
               <a href="https://orcid.org/0000-0003-2950-3472" target="_blank" rel="noopener" aria-label="ORCID">
                 <i class="ai ai-orcid" aria-hidden="true"></i>
                 <span>ORCID</span>
+              </a>
+              <a href="https://www.scopus.com/authid/detail.uri?authorId=57209234170" target="_blank" rel="noopener" aria-label="Scopus">
+                <img class="pi-link-logo pi-link-logo-scopus" src="../media/scopus-vector.svg" alt="" aria-hidden="true">
+                <span>SCOPUS</span>
+              </a>
+              <a href="https://research.polyu.edu.hk/en/persons/xiaolong-mi/" target="_blank" rel="noopener" aria-label="PolyU Scholars Hub">
+                <img class="pi-link-logo pi-link-logo-polyu" src="../media/polyu-scholars-hub.png" alt="" aria-hidden="true">
+                <span>PolyU Scholars</span>
               </a>
             </div>
           </div>
