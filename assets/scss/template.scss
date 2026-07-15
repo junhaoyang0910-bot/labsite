@@ -765,11 +765,11 @@ body:has(.lab-home-cover) .site-footer {
 
 .pi-profile {
   display: grid;
-  grid-template-columns: 320px minmax(520px, 720px);
+  grid-template-columns: 320px minmax(520px, 640px);
   column-gap: 2.6rem;
   align-items: start;
   justify-content: center;
-  max-width: 1180px;
+  max-width: 1100px;
   margin: 0 auto 3.2rem;
 }
 
